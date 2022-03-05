@@ -3,6 +3,7 @@
 ## 💡 Inspiration
 
 ## 💻 What it does
+Anonymously share your thoughts and ideas with the world.
 
 ## 🔐 MLH- Best Blockchain Project Using Hedera
 

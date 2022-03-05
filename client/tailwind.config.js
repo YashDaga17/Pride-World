@@ -8,15 +8,21 @@ module.exports = {
         primary: "#1B2431",
         secondary: "#EB89D0FC",
         tertiary: "#1E488F",
-        green: colors.emerald,
       },
       zIndex: {
         "-1": "-1",
       },
-      fontFamily: {
-        'sansSerif': ['Source Sans Pro', 'sans-serif']
-      }
+      spacing: {
+        '128': '40rem',
+        '256': '80rem',
+      },
     },
+    fontFamily: {
+      'sansSerif': ['Source Sans Pro', 'sans-serif']
+    }
+  },
+  variants: {
+    borderColor: ['responsive', 'hover', 'focus', 'focus-within'],
   },
   plugins: [],
 }
