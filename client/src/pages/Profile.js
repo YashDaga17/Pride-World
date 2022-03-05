@@ -26,7 +26,7 @@ export default function Profile() {
       <div className="flex flex-wrap flex-col-2 justify-around w-full px-16 py-8">
 
       <div className="m-8">
-          <div className="w-52 h-52 cursor-pointer transition duration-500 transform hover:scale-105 border-4 border-tertiary rounded-lg">
+          <div className="w-52 h-52 cursor-pointer transition duration-500 transform hover:scale-105 border-4 border-tertiary rounded-lg ">
             <div className="grid place-content-center text-3xl text-center items-center align-middle h-full font-semibold px-4">My Blogs</div>
           </div>
         </div>

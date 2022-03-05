@@ -9,7 +9,7 @@ export default function App() {
   const [user] = useAuthState(auth);
 
   return (
-    <div className="font-sansSerif">
+    <div className="font-montserrat">
 
       {user ?
         <Main />

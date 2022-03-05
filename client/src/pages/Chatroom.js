@@ -1,7 +1,20 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 
 export default function Chatroom() {
+
+  const { t } = useTranslation();
+
   return (
-    <div>Chatroom</div>
+    <div className='mx-4 pt-8 pb-12'>
+
+      <div className='mx-56 grid place-items-center'>
+        <h1 className='text-5xl font-semibold'>{t('navLinkChatroom')}</h1>
+        <div className="bg-tertiary w-56 h-1 my-2"></div>
+      </div>
+
+      <iframe src="http://localhost:57825/" height={600} width={1500} />
+
+    </div>
   )
 }
