@@ -6,9 +6,21 @@
     "navLinkPosts": "Posts",
     "navLinkCreatePost": "Create Post",
     "navLinkChatroom": "Chatroom",
-    "navLinkExercise": "Exercise",
+    "navLinkExercise": "Mini Sessions",
+    "navLinkProfile": "Profile",
     "navChangeLang": "Change Language",
     "navLinkLogout": "Logout",
+
+    "homeTitle": "Who we are",
+    "hoemAbout": "About the web app",
+    "homeCheckPost": "Check post",
+    "homwWhatEsle": "What else do we have",
+    "homeDesc": "Pride World is a web app where you can:",
+    "homePt1": "Create posts",
+    "homePt2": "Put up the posts",
+    "homePt3": "Get expert advice",
+    "homePt4": "Smart Chatbot Assistance",
+    "homePt5": "Chat anonymously in the chatroom",
   
     "footerWith": "with",
     "footerBy": "by team001"

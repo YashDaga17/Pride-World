@@ -24,7 +24,7 @@ function LogIn() {
                     <div className="md:flex md:flex-col md:justify-center lg:pr-16">
 
                         <h2 className="mb-4 text-6xl self-center font-bold tracking-wider text-white">
-                            Pride World
+                            <span className="text-red-600">P</span><span className="text-orange-600">r<span className="text-green-500">i</span></span><span className="text-blue-500">d</span><span className="text-indigo-500">e</span>&nbsp;<span className="text-red-600">W</span><span className="text-orange-600">o<span className="text-green-500">r</span></span><span className="text-blue-500">l</span><span className="text-indigo-500">d</span>
                         </h2>
 
                         <div className="relative mt-4 outline-transparent outline">

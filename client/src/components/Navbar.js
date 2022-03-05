@@ -22,7 +22,7 @@ export default function Navbar() {
     return (
         <div >
             <nav className="flex items-center py-2 flex-wrap px-4 text-fontColor tracking-wider bg-primary">
-                <Link to="/"><span className="p-2 mr-4 inline-flex items-center text-4xl md:text-5xl cursor-pointer font-base text-white font-semibold">{t('logo')}
+                <Link to="/"><span className="p-2 mr-4 inline-flex items-center text-4xl md:text-5xl cursor-pointer font-base text-white font-semibold"><span className="text-red-600">P</span><span className="text-orange-600">r<span className="text-green-500">i</span></span><span className="text-blue-500">d</span><span className="text-indigo-500">e</span>&nbsp;<span className="text-red-600">W</span><span className="text-orange-600">o<span className="text-green-500">r</span></span><span className="text-blue-500">l</span><span className="text-indigo-500">d</span>
                 </span></Link>
                 <button className="lg:hidden right-0 absolute md:px-8 px-6 mr-1 mb-1 ease-linear transition-all duration-150" type="button" onClick={() => setShowNavbar(true)} aria-hidden="false" aria-label="button">
                     <HiOutlineMenuAlt3 className="h-7 w-7" aria-hidden="false" />
@@ -106,8 +106,8 @@ export default function Navbar() {
                             <span className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-tertiary cursor-pointer text-white">{t('navLinkChatroom')}</span>
                         </Link>
 
-                        <Link to="/exercise">
-                            <span className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-tertiary cursor-pointer text-white">{t('navLinkExercise')}</span>
+                        <Link to="/profile">
+                            <span className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-tertiary cursor-pointer text-white">{t('navLinkProfile')}</span>
                         </Link>
 
                         <Menu as="div" className="relative inline-block text-left">

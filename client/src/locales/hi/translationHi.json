@@ -7,8 +7,20 @@
     "navLinkCreatePost": "पोस्ट बनाएं",
     "navLinkChatroom": "चैट",
     "navLinkExercise": "व्यायाम",
+    "navLinkProfile": "प्रोफाइल",
     "navChangeLang": "भाषा बदलें",
     "navLinkLogout": "लॉग आउट",
+
+    "homeTitle": "हम जो हैं",
+    "hoemAbout": "वेब ऐप के बारे में",
+    "homeCheckPost": "चेक पोस्ट",
+    "homwWhatEsle": "हमारे पास और क्या है",
+    "homeDesc": "Pride World is a web app where you can:",
+    "homePt1": "Create posts",
+    "homePt2": "Put up the posts",
+    "homePt3": "Get expert advice",
+    "homePt4": "Smart Chatbot Assistance",
+    "homePt5": "Chat anonymously in the chatroom",
   
     "footerWith": "साथ",
     "footerBy": "टीम001 . द्वारा"

@@ -7,8 +7,20 @@
     "navLinkCreatePost": "投稿を作成",
     "navLinkChatroom": "チャットルーム",
     "navLinkExercise": "エクササイズ",
+    "navLinkProfile": "プロフィール",
     "navChangeLang": "言語を変えてください",
     "navLinkLogout": "ログアウト",
+
+    "homeTitle": "私たちは誰ですか",
+    "hoemAbout": "Webアプリについて",
+    "homeCheckPost": "投稿を確認する",
+    "homwWhatEsle": "他に何がありますか",
+    "homeDesc": "Pride World is a web app where you can:",
+    "homePt1": "Create posts",
+    "homePt2": "Put up the posts",
+    "homePt3": "Get expert advice",
+    "homePt4": "Smart Chatbot Assistance",
+    "homePt5": "Chat anonymously in the chatroom",
   
     "footerWith": "と",
     "footerBy": "team001による"

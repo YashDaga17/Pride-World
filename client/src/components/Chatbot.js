@@ -165,12 +165,12 @@ function Chatbot() {
                     handleEnd={handleEnd}
                     opened={opened}
                     headerTitle="Emma"
-                    botAvatar={"https://miro.medium.com/max/525/1*lyyXmbeoK5JiIBNCnzzjjg.png"}
+                    botAvatar={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5xhEeeLUqbF_fvOqciKVKBHT-JHonAcKKF2gcUV738X6XSWPdEEHaE7nUEdrr629bE40&usqp=CAU"}
                     avatarStyle={{ borderRadius: "100%" }}
                     floating={true}
                     floatingIcon={
                         <img
-                            src={"https://miro.medium.com/max/525/1*lyyXmbeoK5JiIBNCnzzjjg.png"}
+                            src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5xhEeeLUqbF_fvOqciKVKBHT-JHonAcKKF2gcUV738X6XSWPdEEHaE7nUEdrr629bE40&usqp=CAU"}
                             style={{ width: "70%" }}
                             alt="chatBot icon"
                         />

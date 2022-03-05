@@ -1,6 +1,7 @@
 import React from 'react'
 import ExerciseImg from '../assets/exercise.svg'
 import { HiX } from "react-icons/hi";
+import { useTranslation } from 'react-i18next'
 
 export const meditationInfo = [
   {
@@ -17,6 +18,8 @@ export const meditationInfo = [
 
 export default function Exercise() {
 
+  const { t } = useTranslation();
+
   const [showDetails, setShowDetails] = React.useState(false);
   const [showDetails2, setShowDetails2] = React.useState(false);
   const [showDetails3, setShowDetails3] = React.useState(false);
@@ -26,7 +29,7 @@ export default function Exercise() {
     <div className='mx-4 pt-8 pb-12'>
 
       <div className='mx-56 grid place-items-center'>
-        <h1 className='text-5xl font-semibold'>Mental Expercise</h1>
+        <h1 className='text-5xl font-semibold'>{t('navLinkExercise')}</h1>
         <div className="bg-tertiary w-64 h-1 my-2"></div>
       </div>
 
@@ -41,7 +44,7 @@ export default function Exercise() {
               <img src={ExerciseImg} width="600" height="600" alt="img" className="rounded-xl" />
             </div>
             <div className="w-full md:w-2/3 bg-white flex flex-col p-3">
-              <h1 className="font-black text-gray-800 text-2xl">Guided Meditation for Positive Energy, Relaxation, Peace</h1>
+              <h1 className="font-black text-gray-800 text-2xl">Best exercise for Anxiety and Depression</h1>
               <button className='bg-secondary py-2 px-8 rounded-md text-lg w-36 my-4' onClick={() => setShowDetails2(true)} aria-hidden="false" aria-label="button">View</button>
 
               {showDetails2 ? (
@@ -52,7 +55,7 @@ export default function Exercise() {
                       <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-pink-500 outline-none focus:outline-none">
                         <div className="flex items-start justify-between p-5 border-solid rounded-t">
                           <div className="text-2xl font-base tracking-wide cursor-pointer">
-                            Guided Meditation for Positive Energy, Relaxation, Peace
+                          Best exercise for Anxiety and Depression
                           </div>
 
                           <button className="absolute right-6" onClick={() => setShowDetails2(false)} aria-hidden="false" aria-label="button">
@@ -67,7 +70,7 @@ export default function Exercise() {
 
                         <div className="grid place-items-center text-xl py-2 gap-2 w-full mb-4"
                         >
-                          <iframe src="https://www.youtube.com/embed/syx3a1_LeFo" height={400} width={700} />
+                          <iframe src="https://www.youtube.com/embed/sFtP0HWvu0k" height={400} width={700} />
                         </div>
                       </div>
                     </div>
@@ -88,7 +91,7 @@ export default function Exercise() {
               <img src={ExerciseImg} width="600" height="600" alt="img" className="rounded-xl" />
             </div>
             <div className="w-full md:w-2/3 bg-white flex flex-col p-3">
-              <h1 className="font-black text-gray-800 text-2xl">Daily 10 Minutes Meditation</h1>
+              <h1 className="font-black text-gray-800 text-2xl">Barin exercise to strengthen your mind</h1>
               <button className='bg-secondary py-2 px-8 rounded-md text-lg w-36 my-4' onClick={() => setShowDetails(true)} aria-hidden="false" aria-label="button">View</button>
 
               {showDetails ? (
@@ -99,7 +102,7 @@ export default function Exercise() {
                       <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-pink-500 outline-none focus:outline-none">
                         <div className="flex items-start justify-between p-5 border-solid rounded-t">
                           <div className="text-2xl font-base tracking-wide cursor-pointer">
-                            Daily 10 Minutes Meditation
+                            Barin exercise to strengthen your mind
                           </div>
 
                           <button className="absolute right-6" onClick={() => setShowDetails(false)} aria-hidden="false" aria-label="button">
@@ -114,7 +117,7 @@ export default function Exercise() {
 
                         <div className="grid place-items-center text-xl py-2 gap-2 w-full mb-4"
                         >
-                          <iframe src="https://www.youtube.com/embed/86m4RC_ADEY" height={400} width={700} />
+                          <iframe src="https://www.youtube.com/embed/pCpiteBel8E" height={400} width={700} />
                         </div>
                       </div>
                     </div>
@@ -141,7 +144,7 @@ export default function Exercise() {
               <img src={ExerciseImg} width="600" height="600" alt="img" className="rounded-xl" />
             </div>
             <div className="w-full md:w-2/3 bg-white flex flex-col p-3">
-              <h1 className="font-black text-gray-800 text-2xl">Relieve Stress & Anxiety with Simple Breathing Techniques</h1>
+              <h1 className="font-black text-gray-800 text-2xl">Gentel exercise for and relaxation for good health</h1>
               <button className='bg-secondary py-2 px-8 rounded-md text-lg w-36 my-4' onClick={() => setShowDetails3(true)} aria-hidden="false" aria-label="button">View</button>
 
               {showDetails3 ? (
@@ -152,7 +155,7 @@ export default function Exercise() {
                       <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-pink-500 outline-none focus:outline-none">
                         <div className="flex items-start justify-between p-5 border-solid rounded-t">
                           <div className="text-2xl font-base tracking-wide cursor-pointer">
-                            Relieve Stress & Anxiety with Simple Breathing Techniques
+                            Gentel exercise for and relaxation for good health
                           </div>
 
                           <button className="absolute right-6" onClick={() => setShowDetails3(false)} aria-hidden="false" aria-label="button">
@@ -167,7 +170,8 @@ export default function Exercise() {
 
                         <div className="grid place-items-center text-xl py-2 gap-2 w-full mb-4"
                         >
-                          <iframe src="https://www.youtube.com/embed/odADwWzHR24" height={400} width={700} />
+                          {/* https://www.youtube.com/watch?v=z_JlCQOSI2A */}
+                          <iframe src="https://www.youtube.com/embed/z_JlCQOSI2A" height={400} width={700} />
                         </div>
                       </div>
                     </div>
@@ -188,7 +192,7 @@ export default function Exercise() {
               <img src={ExerciseImg} width="600" height="600" alt="img" className="rounded-xl" />
             </div>
             <div className="w-full md:w-2/3 bg-white flex flex-col p-3">
-              <h1 className="font-black text-gray-800 text-2xl">Total Body Yoga | Deep Stretch</h1>
+              <h1 className="font-black text-gray-800 text-2xl">15 min. Daily Workout</h1>
               <button className='bg-secondary py-2 px-8 rounded-md text-lg w-36 my-4' onClick={() => setShowDetails4(true)} aria-hidden="false" aria-label="button">View</button>
 
               {showDetails4 ? (
@@ -199,7 +203,7 @@ export default function Exercise() {
                       <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-pink-500 outline-none focus:outline-none">
                         <div className="flex items-start justify-between p-5 border-solid rounded-t">
                           <div className="text-2xl font-base tracking-wide cursor-pointer">
-                            Total Body Yoga | Deep Stretch
+                            15 min. Daily Workout
                           </div>
 
                           <button className="absolute right-6" onClick={() => setShowDetails4(false)} aria-hidden="false" aria-label="button">
@@ -214,7 +218,8 @@ export default function Exercise() {
 
                         <div className="grid place-items-center text-xl py-2 gap-2 w-full mb-4"
                         >
-                          <iframe src="https://www.youtube.com/embed/GLy2rYHwUqY" height={400} width={700} />
+                          {/* https://www.youtube.com/watch?v=GS_z6FG_jqE */}
+                          <iframe src="https://www.youtube.com/embed/GS_z6FG_jqE" height={400} width={700} />
                         </div>
                       </div>
                     </div>

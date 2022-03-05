@@ -3,7 +3,6 @@
 ## 💡 Inspiration
 
 ## 💻 What it does
-Anonymously share your thoughts and ideas with the world.
 
 ## 🔐 MLH- Best Blockchain Project Using Hedera
 
@@ -23,6 +22,12 @@ We are using GitHub for the following reasons:
 - Any domain with .co, .biz, .us, .study or .courses to be registered on GoDaddy to be able to use the domain.
 
 ## 🧠 Challenges we ran into
+
+- It was the first time using Firestore in the project.
+- Seting up the CI/CD workflow was a challenge because we had not done that before.
+- Completing the project was a challenge because we had to implement the project in a deadline.
+- Most of the team members are new hackathon participants so it was new to work in a hackathon.
+- Working with Hedera’s testnet was a challenge because it was a new technology but we were albe to implement it.
 
 ## Resources
 
