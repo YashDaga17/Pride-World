@@ -1,8 +1,10 @@
 # Pride-World
 
 ## 💡 Inspiration
+Our inspiration stems from the fact that the LGBTQ+ community requires a space where they can gain all of the information they need, know that they are not alone, that family does not always have to be blood related, and that they are entitled to all of the respect, appreciation, and equal opportunities and rights. They require a platform where they may openly talk and where real specialists and therapists can assist them in their quest for respect and pride.
 
 ## 💻 What it does
+Our web-app "Pride World" is built with features like expert guidance, mini sessions for 
 
 ## 🔐 MLH- Best Blockchain Project Using Hedera
 
