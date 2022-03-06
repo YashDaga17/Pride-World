@@ -18,7 +18,9 @@ module.exports = {
       },
     },
     fontFamily: {
-      'sansSerif': ['Source Sans Pro', 'sans-serif']
+      'sansSerif': ['Source Sans Pro', 'sans-serif'],
+      'Shrikhand': ['Shrikhand', 'cursive'],
+      'leagueSparten': ['league-spartan', 'cursive'],
     }
   },
   variants: {

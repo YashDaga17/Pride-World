@@ -1,11 +1,14 @@
 import React from 'react'
 import firebase from "firebase";
+import NFTImg from "../assets/nft.png"
 
 export default function Profile() {
   return (
     <div className='md:mx-28 mx-4 pt-8 pb-12 min-h-screen'>
+      <div className='grif place-items-center'>
+        <h1 className='text-3xl font-semibold'>My profile</h1>
+      </div>
       <div className='mx-36'>
-        <h1 className='text-3xl'>My profile</h1>
         <div
           className="flex flex-col md:flex-row space-y-3 md:space-y-0 drop-shadow-3xl p-3 mx-auto">
           <div className="w-full grid place-items-center md:drop-shadow-3xl">
@@ -25,11 +28,13 @@ export default function Profile() {
 
       <div className="flex flex-wrap flex-col-2 justify-around w-full px-16 py-8">
 
-      <div className="m-8">
+        <div className="m-8">
           <div className="w-52 h-52 cursor-pointer transition duration-500 transform hover:scale-105 border-4 border-tertiary rounded-lg ">
             <div className="grid place-content-center text-3xl text-center items-center align-middle h-full font-semibold px-4">My Blogs</div>
           </div>
         </div>
+
+        <img src={NFTImg} width="500" height="200" alt="img" className='' />
 
       </div>
 

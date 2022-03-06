@@ -21,8 +21,8 @@ export default function Navbar() {
 
     return (
         <div >
-            <nav className="flex items-center py-2 flex-wrap px-4 text-fontColor tracking-wider bg-primary">
-                <Link to="/"><span className="p-2 mr-4 inline-flex items-center text-4xl md:text-5xl cursor-pointer font-base text-white font-semibold"><span className="text-red-600">P</span><span className="text-orange-600">r<span className="text-green-500">i</span></span><span className="text-blue-500">d</span><span className="text-indigo-500">e</span>&nbsp;<span className="text-red-600">W</span><span className="text-orange-600">o<span className="text-green-500">r</span></span><span className="text-blue-500">l</span><span className="text-indigo-500">d</span>
+            <nav className="flex items-center py-2 flex-wrap px-4 text-fontColor tracking-wider bg-[#e3e70d]">
+                <Link to="/"><span className="p-2 mr-4 inline-flex items-center text-4xl md:text-5xl cursor-pointer font-base font-semibold"><span className="text-red-600">P</span><span className="text-orange-600">r<span className="text-green-500">i</span></span><span className="text-blue-500">d</span><span className="text-indigo-500">e</span><span className="text-red-600">W</span><span className="text-orange-600">o<span className="text-green-500">r</span></span><span className="text-blue-500">l</span><span className="text-indigo-500">d</span>
                 </span></Link>
                 <button className="lg:hidden right-0 absolute md:px-8 px-6 mr-1 mb-1 ease-linear transition-all duration-150" type="button" onClick={() => setShowNavbar(true)} aria-hidden="false" aria-label="button">
                     <HiOutlineMenuAlt3 className="h-7 w-7" aria-hidden="false" />
@@ -54,26 +54,26 @@ export default function Navbar() {
                                     >
 
                                         <Link to="/">
-                                            <span className="lg:inline-flex px-3 mx-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-tertiary cursor-pointer text-white">{t('navLinkHome')}</span>
+                                            <span className="lg:inline-flex px-3 mx-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-orange-500 hover:text-white cursor-pointer">{t('navLinkHome')}</span>
                                         </Link>
 
                                         <Link to="/posts">
-                                            <span className="lg:inline-flex px-3 mx-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-tertiary cursor-pointer text-white">{t('navLinkPosts')}</span>
+                                            <span className="lg:inline-flex px-3 mx-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-orange-500 hover:text-white cursor-pointer">{t('navLinkPosts')}</span>
                                         </Link>
 
                                         <Link to="/createPost">
-                                            <span className="lg:inline-flex px-3 mx-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-tertiary cursor-pointer text-white">{t('navLinkCreatePost')}</span>
+                                            <span className="lg:inline-flex px-3 mx-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-orange-500 hover:text-white cursor-pointer">{t('navLinkCreatePost')}</span>
                                         </Link>
 
                                         <Link to="/chatroom">
-                                            <span className="lg:inline-flex px-3 mx-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-tertiary cursor-pointer text-white">{t('navLinkChatroom')}</span>
+                                            <span className="lg:inline-flex px-3 mx-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-orange-500 hover:text-white cursor-pointer">{t('navLinkChatroom')}</span>
                                         </Link>
 
                                         <Link to="/exercise">
-                                            <span className="lg:inline-flex px-3 mx-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-tertiary cursor-pointer text-white">{t('navLinkExercise')}</span>
+                                            <span className="lg:inline-flex px-3 mx-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-orange-500 hover:text-white cursor-pointer">{t('navLinkExercise')}</span>
                                         </Link>
 
-                                        <button className='bg-blue-600 text-white py-2 px-8 rounded-md ml-2' onClick={() => auth.signOut()}>
+                                        <button className='bg-blue-600 py-2 px-8 rounded-md ml-2' onClick={() => auth.signOut()}>
                                             {t('navLinkLogout')}
                                         </button>
 
@@ -91,23 +91,23 @@ export default function Navbar() {
                     <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full text-xl lg:items-center items-start flex flex-col lg:h-auto space-x-2 mr-12" >
 
                         <Link to="/">
-                            <span className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-tertiary cursor-pointer text-white">{t('navLinkHome')}</span>
+                            <span className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-orange-500 hover:text-white cursor-pointer">{t('navLinkHome')}</span>
                         </Link>
 
                         <Link to="/posts">
-                            <span className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-tertiary cursor-pointer text-white">{t('navLinkPosts')}</span>
+                            <span className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-orange-500 hover:text-white cursor-pointer">{t('navLinkPosts')}</span>
                         </Link>
 
                         <Link to="/createPost">
-                            <span className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-tertiary cursor-pointer text-white">{t('navLinkCreatePost')}</span>
+                            <span className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-orange-500 hover:text-white cursor-pointer">{t('navLinkCreatePost')}</span>
                         </Link>
 
                         <Link to="/chatroom">
-                            <span className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-tertiary cursor-pointer text-white">{t('navLinkChatroom')}</span>
+                            <span className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-orange-500 hover:text-white cursor-pointer">{t('navLinkChatroom')}</span>
                         </Link>
 
                         <Link to="/profile">
-                            <span className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-tertiary cursor-pointer text-white">{t('navLinkProfile')}</span>
+                            <span className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-orange-500 hover:text-white cursor-pointer">{t('navLinkProfile')}</span>
                         </Link>
 
                         <Menu as="div" className="relative inline-block text-left">

@@ -55,7 +55,7 @@ export default function Exercise() {
                       <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-pink-500 outline-none focus:outline-none">
                         <div className="flex items-start justify-between p-5 border-solid rounded-t">
                           <div className="text-2xl font-base tracking-wide cursor-pointer">
-                          Best exercise for Anxiety and Depression
+                            Best exercise for Anxiety and Depression
                           </div>
 
                           <button className="absolute right-6" onClick={() => setShowDetails2(false)} aria-hidden="false" aria-label="button">
@@ -70,7 +70,7 @@ export default function Exercise() {
 
                         <div className="grid place-items-center text-xl py-2 gap-2 w-full mb-4"
                         >
-                          <iframe src="https://www.youtube.com/embed/sFtP0HWvu0k" height={400} width={700} />
+                          <iframe src="https://www.youtube.com/embed/sFtP0HWvu0k" height={400} width={700} title="Frame1" />
                         </div>
                       </div>
                     </div>
@@ -117,7 +117,7 @@ export default function Exercise() {
 
                         <div className="grid place-items-center text-xl py-2 gap-2 w-full mb-4"
                         >
-                          <iframe src="https://www.youtube.com/embed/pCpiteBel8E" height={400} width={700} />
+                          <iframe src="https://www.youtube.com/embed/pCpiteBel8E" height={400} width={700} title="Frame2" />
                         </div>
                       </div>
                     </div>
@@ -170,8 +170,7 @@ export default function Exercise() {
 
                         <div className="grid place-items-center text-xl py-2 gap-2 w-full mb-4"
                         >
-                          {/* https://www.youtube.com/watch?v=z_JlCQOSI2A */}
-                          <iframe src="https://www.youtube.com/embed/z_JlCQOSI2A" height={400} width={700} />
+                          <iframe src="https://www.youtube.com/embed/z_JlCQOSI2A" height={400} width={700} title="Frame3" />
                         </div>
                       </div>
                     </div>
@@ -218,8 +217,7 @@ export default function Exercise() {
 
                         <div className="grid place-items-center text-xl py-2 gap-2 w-full mb-4"
                         >
-                          {/* https://www.youtube.com/watch?v=GS_z6FG_jqE */}
-                          <iframe src="https://www.youtube.com/embed/GS_z6FG_jqE" height={400} width={700} />
+                          <iframe src="https://www.youtube.com/embed/GS_z6FG_jqE" height={400} width={700} title="Frame4" />
                         </div>
                       </div>
                     </div>

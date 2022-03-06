@@ -55,6 +55,13 @@ import React from 'react'
 
 export default function Posts() {
   return (
-    <div>Posts</div>
+    <div className='mx-4 pt-8 pb-12 min-h-screen'>
+
+      <div className='mx-56 grid place-items-center'>
+        <h1 className='text-5xl font-semibold'>Posts</h1>
+        <div className="bg-tertiary w-44 h-1 my-2"></div>
+      </div>
+
+    </div>
   )
 }

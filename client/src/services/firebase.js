@@ -1,13 +1,29 @@
+// import { initializeApp } from "firebase/app";
+// import { getFirestore } from "firebase/firestore";
+// import { getAuth, GoogleAuthProvider } from "firebase/auth";
+// const firebaseConfig = {
+//    apiKey: "AIzaSyDIX2LuqJlDcO9YTcE1NQTEwMSHvhXMY_0",
+  // authDomain: "pride-world-fcac0.firebaseapp.com",
+  // projectId: "pride-world-fcac0",
+  // storageBucket: "pride-world-fcac0.appspot.com",
+  // messagingSenderId: "646555784216",
+  // appId: "1:646555784216:web:fb46076a1bcaa7a845df6d"
+// };
+
+// const app = initializeApp(firebaseConfig);
+
+// export const db = getFirestore(app);
+// export const auth = getAuth(app);
+// export const provider = new GoogleAuthProvider();
 import firebase from 'firebase'
 
 const app = firebase.initializeApp({
-  apiKey: "AIzaSyAl6n-Ws-btSCuonsJCgMlspW6sEg3kkXI",
-  authDomain: "good-space-1b61c.firebaseapp.com",
-  projectId: "good-space-1b61c",
-  storageBucket: "good-space-1b61c.appspot.com",
-  messagingSenderId: "225114188693",
-  appId: "1:225114188693:web:1a5393ab7115b6f759649c",
-  measurementId: "G-6LPVK0DSSR"
+  apiKey: "AIzaSyDIX2LuqJlDcO9YTcE1NQTEwMSHvhXMY_0",
+  authDomain: "pride-world-fcac0.firebaseapp.com",
+  projectId: "pride-world-fcac0",
+  storageBucket: "pride-world-fcac0.appspot.com",
+  messagingSenderId: "646555784216",
+  appId: "1:646555784216:web:fb46076a1bcaa7a845df6d"
 })
 
 const firestore = firebase.firestore()

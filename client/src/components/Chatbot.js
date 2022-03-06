@@ -89,7 +89,7 @@ const steps = [
             { value: "Home", label: "Home", trigger: "selectedService" },
             { value: "Create Posts", label: "Create Posts", trigger: "selectedService" },
             { value: "Chatroom", label: "Chatroom", trigger: "selectedService" },
-            { value: "Exercise", label: "Exercise", trigger: "selectedService" },
+            { value: "Mini sessions", label: "Mini sessions", trigger: "selectedService" },
             { value: "goBack", label: "go back", trigger: "options" },
         ],
     },
@@ -131,21 +131,21 @@ function FunFact() {
 function Chatbot() {
     const [opened, setOpened] = useState(false);
     const [key, setKey] = useState(Math.random());
-    const history = useNavigate();
+    const navigate = useNavigate()
 
     const handleEnd = ({ steps, values }) => {
         switch (values[values.length - 1]) {
             case "Home":
-                history.push("/");
+                navigate({ pathname: '/' })
                 break;
             case "Create Posts":
-                history.push("/createPost");
+                navigate({ pathname: '/createPost' })
                 break;
             case "Chatroom":
-                history.push("/chatroom");
+                navigate({ pathname: '/chatroom' })
                 break;
-            case "Exercise":
-                history.push("/exercise");
+            case "Mini sessions":
+                navigate({ pathname: '/exercise' })
                 break;
             default:
                 break;
